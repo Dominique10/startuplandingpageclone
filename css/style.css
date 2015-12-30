@@ -1,0 +1,7 @@
+body{
+	background-color: LightGray;
+}
+section,
+div {
+	border:1px solid Chocolate;
+}
