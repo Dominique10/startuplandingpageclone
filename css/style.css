@@ -26,15 +26,14 @@ width: 100%;
 z-index: 9999;
     border-bottom: 1px solid #DDD;
 }
-.top-nav .content{
-width: 80%;
-height: 70px;
-margin: 0 auto;
-padding: 0 1rem;
+.top-nav > .content{
+height: 4.375rem;
+
 
 }
 .top-nav .links{
 	font-family: 'Roboto', sans-serif;
+    float: right;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -44,7 +43,7 @@ padding: 0 1rem;
 .top-nav .links li {
     display: inline-block;
     margin-left: 25px;
-    float: right;
+    
 }
 .top-nav .links .active {
     color: #4c5058;
@@ -53,6 +52,9 @@ padding: 0 1rem;
 .top-nav .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+.top-nav .logo {
+    height: 4.375rem;
 }
 .intropicture {
     background-image: url("../images/first-background.jpg");
@@ -126,7 +128,42 @@ width: 33.33%
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
+    /*border: 1px solid black;
+    box-sizing: border-box;*/
     height: 4em;
+}
+.footer{
+    background-color: #fff;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.footer .content hr{
+
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+
+}
+.socialIcon{
+    list-style:none;
+    text-align: center; 
+}
+.socialIcon li{
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 1.1rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.socialIcon .twitter{
+        color: #55acee;
+}
+.content .copy{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
